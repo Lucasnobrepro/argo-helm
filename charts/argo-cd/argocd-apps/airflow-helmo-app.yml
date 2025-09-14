@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/Lucasnobrepro/airflow.git'
     targetRevision: main
-    path: .
+    path: charts/argo-cd/argocd-apps
   destination:
     server: https://kubernetes.default.svc
     namespace: airflow
